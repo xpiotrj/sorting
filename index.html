@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorythms</title>
+</head>
+<body>
+    <div class="row">
+        <div id="main"></div>
+        <div id="options">
+            Lenght <input type="number" name="" id="lenght" value="70" max=120 placeholder="max. 120"><br>
+            
+            Time<input type="range" min="0" max="100" value="20" name="" id="time"><span id="time-span">20ms</span><br>
+            <textarea name="" placeholder="Own array... [0, 66, 7, 55, 7], max value = 100, max lenght = 100" id="array-textarea" cols="30" rows="10"></textarea><br>
+            type: 
+            bubble<input type="radio" name="type" value="bubble" id="" checked>
+            insertion<input type="radio" name="type" id="" value="insertion">
+            selection<input type="radio" name="type" id="" value="selection">
+            quicksort<input type="radio" name="type" id="" value="quicksort">
+            <br>
+            Animated <input type="checkbox" id="animated-checkbox"><br>
+            <input type="button" id="generate-button" value="generate array">
+            <input type="button" id="sort-button" value="sort array"><br>
+            <textarea name="" id="result-textarea" placeholder="results..." cols="30" rows="10"></textarea>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div id="status">
+            test
+        </div>
+    </div>
+</body>
+</html>

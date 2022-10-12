@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+#main{
+    height: 500px;
+    width: 70%;
+    border: 1px solid black;
+    transform: rotate(180deg);
+}
+
+#status{
+    border: 1px solid black;
+    width: 40%;
+    height: 15vh;
+}
+
+#options{
+    float: right;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.bar{
+    min-height: 1%;
+    width: 10px;
+    float: right;
+    margin-right: 2px;
+    background-color: aqua;
+}
+
+.animated{
+    transition: 0.05s;
+}
